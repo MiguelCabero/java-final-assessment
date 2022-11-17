@@ -20,3 +20,12 @@ table {
     background-color: var(--primary-color);
     color: white;
   }
+
+  .button{
+    display: flex;
+    margin: 0 auto;
+  }
+
+  .button:hover{
+    cursor: pointer;
+  }
