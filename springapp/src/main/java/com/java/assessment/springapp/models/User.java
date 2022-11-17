@@ -23,7 +23,12 @@ public class User {
     @Column
     private String email;
 
+<<<<<<< HEAD
     public User() {
+=======
+    public User(){
+
+>>>>>>> 5cab4f0 (Display users table)
     }
 
     public User(Integer id, String firstName, String lastName, String phoneNumber, String email) {
