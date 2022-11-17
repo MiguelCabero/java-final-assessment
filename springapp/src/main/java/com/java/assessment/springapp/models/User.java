@@ -23,6 +23,9 @@ public class User {
     @Column
     private String email;
 
+    public User() {
+    }
+
     public User(Integer id, String firstName, String lastName, String phoneNumber, String email) {
         this.id = id;
         this.firstName = firstName;

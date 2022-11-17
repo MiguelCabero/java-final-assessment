@@ -34,7 +34,7 @@ public class UserController {
 
         final User savedUser = userService.saveUser(user);
 
-        return new ResponseEntity<User>(savedUser, HttpStatus.OK);
+        return new ResponseEntity<User>(savedUser, HttpStatus.CREATED);
     }
 
 }
