@@ -1,6 +1,6 @@
 import axios from 'axios';
 import { React, useState, useRef } from 'react';
-import Message from './Message';
+import Message from '../Message/Message';
 import './Form.component.css';
 
 function Form() {

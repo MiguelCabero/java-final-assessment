@@ -1,0 +1,27 @@
+.header {
+	width: 100%;
+	display: flex;
+	background-color: var(--primary-color);
+	padding: 0.25rem;
+	margin-bottom: 2rem;
+}
+
+.header nav {
+	width: 25%;
+}
+
+.header ul {
+	width: 100%;
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+}
+
+.header a {
+	text-decoration: none;
+	color: var(--primary-color);
+	background-color: whitesmoke;
+	padding: 0.5rem;
+	border: none;
+	border-radius: 0.25rem;
+}

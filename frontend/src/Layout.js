@@ -1,13 +1,13 @@
 import React from 'react';
-import Navigation from './components/Navigation';
+import Navigation from './components/Navigation/Navigation';
 
-const Layout = (props)=>{
-    return(
-        <div>
-            <Navigation/>
-            {props.children}
-        </div>
-    )
-}
+const Layout = (props) => {
+	return (
+		<div>
+			<Navigation />
+			{props.children}
+		</div>
+	);
+};
 
 export default Layout;
