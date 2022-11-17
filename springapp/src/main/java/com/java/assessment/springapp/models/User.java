@@ -71,14 +71,27 @@ public class User {
         this.email = email;
     }
 
+    @SuppressWarnings("checkstyle:OperatorWrap")
     @Override
     public String toString() {
-        return "User{" +
-                "id=" + id +
-                ", firstName='" + firstName + '\'' +
-                ", lastName='" + lastName + '\'' +
-                ", phoneNumber='" + phoneNumber + '\'' +
-                ", email='" + email + '\'' +
+        return "User{"
+                +
+                "id="
+                + id
+                +
+                ", firstName='" + firstName
+                + '\''
+                +
+                ", lastName='" + lastName
+                + '\''
+                +
+                ", phoneNumber='" + phoneNumber
+                + '\''
+                +
+                ", email='"
+                + email
+                + '\''
+                +
                 '}';
     }
 }
